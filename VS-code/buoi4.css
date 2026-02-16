@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;          /* căn giữa trang */
+    padding: 60px 0;
+    
+}
+
+/* TIÊU ĐỀ */
+.tieu-de {
+    text-align: center;      /* chữ ở giữa */
+    margin-bottom: 50px;
+}
+
+.tieude-phu {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #888;
+}
+
+.tieu-de h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* DANH SÁCH DỊCH VỤ */
+.danh-sach-dich-vu {
+    display: flex;           /* xếp hình vào giữa */
+    justify-content: center; 
+    gap: 70px;               /* khoảng cách giữa các thẻ */
+}
+
+/* 3 THẺ */
+.the-dich-vu {
+    width: 260px;
+    text-align: center;
+}
+
+/* 3 ẢNH */
+.hinh-anh img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 65% 65% 0 0;  /* tạo hình bầu */
+    border: 1.5px solid #111; 
+    box-sizing: border-box;
+}
+
+/* NỘI DUNG */
+.noi-dung {
+    background-color: #e9d5c3;
+    padding: 20px;
+    height: 150px;
+    
+}
+
+.noi-dung h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.noi-dung p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.noi-dung a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
